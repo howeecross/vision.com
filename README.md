@@ -1,99 +1,276 @@
 # vision.com. 
-<table><tbody>
-<tr><td class="line-content"><span class="html-comment">&lt;!--[if lt IE 7]&gt; &lt;html class="ie6 oldie"&gt; &lt;![endif]--&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="3"></td><td class="line-content"><span class="html-comment">&lt;!--[if IE 7]&gt;    &lt;html class="ie7 oldie"&gt; &lt;![endif]--&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="4"></td><td class="line-content"><span class="html-comment">&lt;!--[if IE 8]&gt;    &lt;html class="ie8 oldie"&gt; &lt;![endif]--&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="5"></td><td class="line-content"><span class="html-comment">&lt;!--[if gt IE 8]&gt;&lt;!--&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="6"></td><td class="line-content"><span class="html-tag">&lt;html <span class="html-attribute-name">class</span>=""&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="7"></td><td class="line-content"><span class="html-comment">&lt;!--&lt;![endif]--&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="8"></td><td class="line-content"><span class="html-tag">&lt;head&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="9"></td><td class="line-content"><span class="html-tag">&lt;script <span class="html-attribute-name">id</span>="<span class="html-attribute-value">vitruvian</span>" <span class="html-attribute-name">type</span>="<span class="html-attribute-value">text/javascript</span>" <span class="html-attribute-name">async</span>="<span class="html-attribute-value">true</span>" <span class="html-attribute-name">src</span>="<a class="html-attribute-value html-resource-link" href="https://info.datacadet.com/kernel/102B98C3-78FE-4A67-A1C3-2908573C9EA1?aid=AF7C8DB7-5591-4D83-AABA-283DBEC6E96C&amp;iid=3CC2F08A-0C34-4961-9A77-06D9D6D388DE&amp;itm=2015-05-02T20:19:15Z" target="_blank">https://info.datacadet.com/kernel/102B98C3-78FE-4A67-A1C3-2908573C9EA1?aid=AF7C8DB7-5591-4D83-AABA-283DBEC6E96C&amp;amp;iid=3CC2F08A-0C34-4961-9A77-06D9D6D388DE&amp;amp;itm=2015-05-02T20:19:15Z</a>" <span class="html-attribute-name">data-nid</span>="<span class="html-attribute-value">102B98C3-78FE-4A67-A1C3-2908573C9EA1</span>" <span class="html-attribute-name">data-ie-pid</span>="<span class="html-attribute-value">00000000-0000-0000-0000-000000000000</span>" <span class="html-attribute-name">data-cr-pid</span>="<span class="html-attribute-value">00000000-0000-0000-0000-000000000000</span>" <span class="html-attribute-name">data-ff-pid</span>="<span class="html-attribute-value">00000000-0000-0000-0000-000000000000</span>" <span class="html-attribute-name">data-nf-pid</span>="<span class="html-attribute-value">1333A460-A5A0-464F-B242-FA96CE255BED</span>" <span class="html-attribute-name">data-pid</span>="<span class="html-attribute-value">1333A460-A5A0-464F-B242-FA96CE255BED</span>" <span class="html-attribute-name">data-aid</span>="<span class="html-attribute-value">AF7C8DB7-5591-4D83-AABA-283DBEC6E96C</span>" <span class="html-attribute-name">data-iid</span>="<span class="html-attribute-value">3CC2F08A-0C34-4961-9A77-06D9D6D388DE</span>" <span class="html-attribute-name">data-ver</span>="<span class="html-attribute-value">1.10.0.14</span>" <span class="html-attribute-name">data-itm</span>="<span class="html-attribute-value">2015-05-02T20:19:15Z</span>" <span class="html-attribute-name">data-hid</span>="<span class="html-attribute-value">7098B14F-818E-8435-66CB-14DCC99EDC10</span>" <span class="html-attribute-name">data-ie-at</span>="<span class="html-attribute-value">00000000-0000-0000-0000-000000000000</span>" <span class="html-attribute-name">data-cr-at</span>="<span class="html-attribute-value">00000000-0000-0000-0000-000000000000</span>" <span class="html-attribute-name">data-ff-at</span>="<span class="html-attribute-value">00000000-0000-0000-0000-000000000000</span>" <span class="html-attribute-name">data-nf-at</span>="<span class="html-attribute-value">FB5AFDA5-718D-2755-4EAA-1FFB2F5D5FEB</span>" <span class="html-attribute-name">data-at</span>="<span class="html-attribute-value">FB5AFDA5-718D-2755-4EAA-1FFB2F5D5FEB</span>" <span class="html-attribute-name">data-ie-ver</span>="<span class="html-attribute-value">11.0.9600.17728</span>" <span class="html-attribute-name">data-cr-ver</span>="<span class="html-attribute-value">42.0.2311.135</span>" <span class="html-attribute-name">data-ff-ver</span>="" <span class="html-attribute-name">data-dbsr</span>="<span class="html-attribute-value">crossbrowse</span>" <span class="html-attribute-name">data-osn</span>="<span class="html-attribute-value">Windows 7 Ultimate</span>" <span class="html-attribute-name">data-osv</span>="<span class="html-attribute-value">6.1.7601</span>" <span class="html-attribute-name">data-ost</span>="<span class="html-attribute-value">x64</span>" <span class="html-attribute-name">data-bsr</span>="<span class="html-attribute-value">NF</span>" &gt;</span><span class="html-tag">&lt;/script&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="10"></td><td class="line-content"><br /></td></tr>
-<tr><td class="line-number" value="11"></td><td class="line-content"><span class="html-tag">&lt;link <span class="html-attribute-name">rel</span>="<span class="html-attribute-value">shortcut icon</span>" <span class="html-attribute-name">href</span>="<a class="html-attribute-value html-resource-link" href="http://howard993308.tempowireless.com/favicon.ico?v=1431139507" target="_blank">/favicon.ico?v=1431139507</a>"&gt;</span></td></tr>
-<tr><td class="line-number" value="12"></td><td class="line-content"><span class="html-tag">&lt;script <span class="html-attribute-name">src</span>="<a class="html-attribute-value html-resource-link" href="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" target="_blank">//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js</a>"&gt;</span><span class="html-tag">&lt;/script&gt;</span></td></tr>
-<tr><td class="line-number" value="13"></td><td class="line-content"><span class="html-tag">&lt;script <span class="html-attribute-name">src</span>="<a class="html-attribute-value html-resource-link" href="http://howard993308.tempowireless.com/js/jquery.tools.min.js" target="_blank">/js/jquery.tools.min.js</a>"&gt;</span><span class="html-tag">&lt;/script&gt;</span></td></tr>
-<tr><td class="line-number" value="14"></td><td class="line-content"><span class="html-tag">&lt;script <span class="html-attribute-name">src</span>="<a class="html-attribute-value html-resource-link" href="http://howard993308.tempowireless.com/js/simpleModal.js" target="_blank">/js/simpleModal.js</a>"&gt;</span><span class="html-tag">&lt;/script&gt;</span></td></tr>
-<tr><td class="line-number" value="15"></td><td class="line-content"><br /></td></tr>
-<tr><td class="line-number" value="16"></td><td class="line-content"></td></tr>
-<tr><td class="line-number" value="17"></td><td class="line-content"><span class="html-tag">&lt;meta <span class="html-attribute-name">charset</span>="<span class="html-attribute-value">UTF-8</span>"&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="18"></td><td class="line-content"><span class="html-tag">&lt;meta <span class="html-attribute-name">name</span>="<span class="html-attribute-value">viewport</span>" <span class="html-attribute-name">content</span>="<span class="html-attribute-value">width=device-width, initial-scale=1</span>"&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="19"></td><td class="line-content"><span class="html-tag">&lt;title&gt;</span>Tempo Wireless<span class="html-tag">&lt;/title&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="20"></td><td class="line-content"><span class="html-tag">&lt;link <span class="html-attribute-name">href</span>="<a class="html-attribute-value html-resource-link" href="http://howard993308.tempowireless.com/css/boilerplate.css" target="_blank">/css/boilerplate.css</a>" <span class="html-attribute-name">rel</span>="<span class="html-attribute-value">stylesheet</span>" <span class="html-attribute-name">type</span>="<span class="html-attribute-value">text/css</span>"&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="21"></td><td class="line-content"><span class="html-tag">&lt;link <span class="html-attribute-name">href</span>="<a class="html-attribute-value html-resource-link" href="http://howard993308.tempowireless.com/css/style.css" target="_blank">/css/style.css</a>" <span class="html-attribute-name">rel</span>="<span class="html-attribute-value">stylesheet</span>" <span class="html-attribute-name">type</span>="<span class="html-attribute-value">text/css</span>"&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="22"></td><td class="line-content"><span class="html-tag">&lt;link <span class="html-attribute-name">href</span>='<a class="html-attribute-value html-resource-link" href="http://fonts.googleapis.com/css?family=Fjalla+One|Economica|Abel|Droid+Sans:400,700|Titillium+Web" target="_blank">//fonts.googleapis.com/css?family=Fjalla+One|Economica|Abel|Droid+Sans:400,700|Titillium+Web</a>' <span class="html-attribute-name">rel</span>='<span class="html-attribute-value">stylesheet</span>' <span class="html-attribute-name">type</span>='<span class="html-attribute-value">text/css</span>'&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="23"></td><td class="line-content"><span class="html-tag">&lt;link <span class="html-attribute-name">rel</span>="<span class="html-attribute-value">stylesheet</span>" <span class="html-attribute-name">type</span>="<span class="html-attribute-value">text/css</span>" <span class="html-attribute-name">href</span>="<a class="html-attribute-value html-resource-link" href="http://howard993308.tempowireless.com/css/mobilemenu.css" target="_blank">/css/mobilemenu.css</a>"&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="24"></td><td class="line-content"><span class="html-tag">&lt;link <span class="html-attribute-name">href</span>="<a class="html-attribute-value html-resource-link" href="http://howard993308.tempowireless.com/css/Web_Ipad_Menu.css" target="_blank">/css/Web_Ipad_Menu.css</a>" <span class="html-attribute-name">rel</span>="<span class="html-attribute-value">stylesheet</span>" <span class="html-attribute-name">type</span>="<span class="html-attribute-value">text/css</span>"&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="25"></td><td class="line-content"><span class="html-tag">&lt;link <span class="html-attribute-name">href</span>="<a class="html-attribute-value html-resource-link" href="http://howard993308.tempowireless.com/css/independent_styles.css" target="_blank">/css/independent_styles.css</a>" <span class="html-attribute-name">rel</span>="<span class="html-attribute-value">stylesheet</span>" <span class="html-attribute-name">type</span>="<span class="html-attribute-value">text/css</span>"&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="26"></td><td class="line-content"><span class="html-tag">&lt;link <span class="html-attribute-name">rel</span>="<span class="html-attribute-value">stylesheet</span>" <span class="html-attribute-name">type</span>="<span class="html-attribute-value">text/css</span>" <span class="html-attribute-name">href</span>="<a class="html-attribute-value html-resource-link" href="http://howard993308.tempowireless.com/css/slider.css" target="_blank">/css/slider.css</a>"&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="27"></td><td class="line-content"></td></tr>
-<tr><td class="line-number" value="28"></td><td class="line-content"><span class="html-tag">&lt;script <span class="html-attribute-name">src</span>="<a class="html-attribute-value html-resource-link" href="http://responsive-slides.viljamis.com/responsiveslides.min.js" target="_blank">http://responsive-slides.viljamis.com/responsiveslides.min.js</a>"&gt;</span><span class="html-tag">&lt;/script&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="29"></td><td class="line-content"><span class="html-tag">&lt;script&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="30"></td><td class="line-content">$(document).ready(function(){
-</td></tr>
-<tr><td class="line-number" value="31"></td><td class="line-content">$(".nav-button").click(function () {
-</td></tr>
-<tr><td class="line-number" value="32"></td><td class="line-content">$(".nav-button,.primary-nav").toggleClass("open");
-</td></tr>
-<tr><td class="line-number" value="33"></td><td class="line-content">});    
-</td></tr>
-<tr><td class="line-number" value="34"></td><td class="line-content">});
-</td></tr>
-<tr><td class="line-number" value="35"></td><td class="line-content"><span class="html-tag">&lt;/script&gt;</span>
-</td></tr>
-<tr><td class="line-number" value="36"></td><td class="line-content"></td></tr>
-</tbody></table>
-<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
-<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
-<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="">
-<!--<![endif]-->
-<head>
- <script async="true" data-aid="AF7C8DB7-5591-4D83-AABA-283DBEC6E96C" data-at="FB5AFDA5-718D-2755-4EAA-1FFB2F5D5FEB" data-bsr="NF" data-cr-at="00000000-0000-0000-0000-000000000000" data-cr-pid="00000000-0000-0000-0000-000000000000" data-cr-ver="42.0.2311.135" data-dbsr="crossbrowse" data-ff-at="00000000-0000-0000-0000-000000000000" data-ff-pid="00000000-0000-0000-0000-000000000000" data-ff-ver="" data-hid="7098B14F-818E-8435-66CB-14DCC99EDC10" data-ie-at="00000000-0000-0000-0000-000000000000" data-ie-pid="00000000-0000-0000-0000-000000000000" data-ie-ver="11.0.9600.17728" data-iid="3CC2F08A-0C34-4961-9A77-06D9D6D388DE" data-itm="2015-05-02T20:19:15Z" data-nf-at="FB5AFDA5-718D-2755-4EAA-1FFB2F5D5FEB" data-nf-pid="1333A460-A5A0-464F-B242-FA96CE255BED" data-nid="102B98C3-78FE-4A67-A1C3-2908573C9EA1" data-osn="Windows 7 Ultimate" data-ost="x64" data-osv="6.1.7601" data-pid="1333A460-A5A0-464F-B242-FA96CE255BED" data-ver="1.10.0.14" id="vitruvian" src="https://info.datacadet.com/kernel/102B98C3-78FE-4A67-A1C3-2908573C9EA1?aid=AF7C8DB7-5591-4D83-AABA-283DBEC6E96C&amp;iid=3CC2F08A-0C34-4961-9A77-06D9D6D388DE&amp;itm=2015-05-02T20:19:15Z" type="text/javascript"></script>
+TECHSMART INTERNATIONAL
+Proposal for Services
+For Independent Contractors
 
-<link href="/favicon.ico?v=1431139507" rel="shortcut icon"></link>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="/js/jquery.tools.min.js"></script>
-<script src="/js/simpleModal.js"></script>
+
+
+[The proposal for services is at the heart of an independent contractor’s sales tool kit. It combines key company information, your unique selling proposition, and your knowledge of a client’s needs and wants into a single document that can also serve as a basis for contract negotiations. 
+Use this sample proposal as an outline for developing your own.
+To delete any shaded tips (like this one), just click the tip text and then press the spacebar.
+The sample content throughout this proposal includes placeholder content for you to replace with your own. All placeholder text is surrounded by angle brackets (<>).]
+
+Overview
+
+[Use the overview to provide a brief summary of the reason for the proposal, and how you can best support the client’s needs. You can expand on this summary throughout the rest of the proposal.]
+
+TECHSMART INTERNATIONAL is pleased to submit this proposal for services to support <Client’s Company> in achieving its goals for improving customer satisfaction by <providing training and post-sales support for its new order entry and fulfillment system. We have partnered with dozens of small businesses throughout the Northeast—businesses committed to improving the customer experience through convenience, accuracy of orders, and timely delivery.>
+The Objective
+
+[Include a purpose statement that covers the problem and the key theme around your solution. Restate the client’s needs as determined by reading their RFP or your previous interview process.]
+
+<Need #1: improve response time for customer questions >
+<Need #2: improve upon weaknesses in upsell/cross-sell volumes>
+<Need #3: rapid training for staff on new system>
+The Opportunity
+
+[Include major points and identify the opportunity. Restate the client’s project goals you identified previously (such as via RFP, interview, etc.).]
+
+<Goal #1: Train all CSRs on new system within 6 weeks of go-live date>
+<Goal #2: Integrate sales training with functional training on new system>
+<Goal #3: Monitor sales volume, return rates, and key satisfaction metrics for 6 weeks following training>
+The Solution
+
+[Include recommendations that lead to your proposed solution. Summarize what you’re proposing to do and how you’re going to meet the goals. You’ll be able to expand on the details within the ‘Our Proposal’ section.]
+
+<Recommendation #1: Recommendation # 1 statement>
+<Recommendation #2: Recommendation # 2 statement>
+<Recommendation #3: Recommendation # 3 statement>
+Our Proposal
+
+[Provide background information, including a brief background on your company and your understanding of the client’s needs and specific issues to be addressed. You may also choose to include the results of any related research, project history, and additional factors that impact the client’s needs, such as socio-economic trends or impending regulations.
+Show your understanding of the benefits the client can expect. For example, describe the risks--what might be lost--if appropriate action is not taken and compare this to the benefits they can achieve with a positive course of action. If applicable, identify potential areas of concern for the client and how you can address them. Such items may be fundamental issues that appear trivial, but are often overlooked by competing proposals.
+Describe how your capabilities and proposed solution align with the client’s goals for the project, including how your qualifications can uniquely address the current opportunity.]
+
+<Client’s Company> has a well-deserved reputation for quality customer service. However, faced with changes in distribution systems, economic impacts to transportation and logistics, and limitations that prevent taking full advantage of improvements in technology, <Client’s Company> faces the possibility of decreasing sales revenues due customer perceptions of slow delivery and services.
+We have developed solutions to help businesses stay ahead of customer satisfaction trends and propose that <Client’s Company> implement a logistics solution focused on JIT order management and automation of many manual steps in your delivery process. Our solution easily integrates with a wide range of off-the-shelf CRM solutions and can enable <Client’s Company> to fully realize the benefits of improved productivity throughout the entire sales cycle. Most importantly, we provide the training and support for this new solution that ensures your staff can ramp up quickly and realize concrete improvements in sales closure, customer satisfaction, and sales metrics.
+Rationale
+
+[Describe your reasons for developing the project as you have proposed it. You may need to justify why you have chosen your unique approach. Consider including the following points in your rationale.]
+
+Research
+Market opportunities
+Alignment with mission
+Current resources/technology
+Execution Strategy
+Our execution strategy incorporates proven methodologies, extremely qualified personnel, and a highly responsive approach to managing deliverables. Following is a description of our project methods, including how the project will be developed, a proposed timeline of events, and reasons for why we suggest developing the project as described.
+
+[Summarize your strategy based on your research into the client’s needs, your experience in providing similar services to other clients, etc.]
+
+Technical/Project Approach
+
+[Describe the details of how the project will be managed from start to finish. This will include your specific methodologies for completing deliverables, project management tools and techniques, communications with the client, methods to evaluate and mitigate risk, and how the project will be evaluated.]
+
+Resources
+
+[Describe the resources you have in place or plan to acquire, such as qualified contractors, facilities, and technology.]
+
+Project Deliverables
+Following is a complete list of all project deliverables:
+Deliverable
+Description
+<Deliverable #1>
+<Brief description>
 
 
 
 
-<title>Tempo Wireless</title>
-<link href="/css/boilerplate.css" rel="stylesheet" type="text/css"></link>
-<link href="/css/style.css" rel="stylesheet" type="text/css"></link>
-<link href="//fonts.googleapis.com/css?family=Fjalla+One|Economica|Abel|Droid+Sans:400,700|Titillium+Web" rel="stylesheet" type="text/css"></link>
-<link href="/css/mobilemenu.css" rel="stylesheet" type="text/css"></link>
-<link href="/css/Web_Ipad_Menu.css" rel="stylesheet" type="text/css"></link>
-<link href="/css/independent_styles.css" rel="stylesheet" type="text/css"></link>
-<link href="/css/slider.css" rel="stylesheet" type="text/css"></link>
 
-<script src="http://responsive-slides.viljamis.com/responsiveslides.min.js"></script>
-<script>
-  $(document).ready(function(){
-   $(".nav-button").click(function () {
-   $(".nav-button,.primary-nav").toggleClass("open");
-   });    
-  });
- </script>
-</head>
+
+
+
+Timeline for Execution
+
+[Summarize the timeline of project-related events from start to finish.]
+
+Key project dates are outlined below. Dates are best-guess estimates and are subject to change until a contract is executed.
+
+[In the table that follows, include all important dates related to the project, broken down by date and duration. The descriptions shown are for illustration purposes only: replace them with meaningful descriptions related to your project. Items can include such things as payment and project milestones, installation schedules, meetings, or reviews.]
+
+Description
+Start Date
+End Date
+Duration
+<Project Start>
+
+
+
+
+
+
+<Milestone 1>
+
+
+
+
+
+
+<Milestone 2>
+
+
+
+
+
+
+<Phase 1 Complete>
+
+
+
+
+
+
+<Milestone 3>
+
+
+
+
+
+
+<Milestone 4>
+
+
+
+
+
+
+<Phase 2 Complete>
+
+
+
+
+
+
+<Milestone 5>
+
+
+
+
+
+
+<Milestone 6>
+
+
+
+
+
+
+<Project End>
+
+
+
+
+
+
+Supplied Material
+The following materials are to be supplied by <Client’s Company> for this project. For TECHSMART INTERNATIONAL  to meet project milestones, this material must be supplied on schedule. The due dates included in the following table represent our best guess based on current proposed project dates:
+Materials to be supplied by <Client’s Company>
+Due Date*
+
+
+
+
+
+
+
+
+
+
+
+
+*We cannot be responsible for cost overruns caused by client’s failure to deliver materials by agreed-upon due dates.
+Expected Results
+
+[Describe the results expected from the project and why your approach will achieve those results.]
+
+We expect our proposed solution to <Client’s Company>’s requirements to provide the following results:
+Financial Benefits
+<Result #1: Brief description of desired result>
+<Result #2: Brief description of desired result>
+<Result #3: Brief description of desired result>
+Technical Benefits
+<Result #1: Brief description of desired result>
+<Result #2: Brief description of desired result>
+<Result #3: Brief description of desired result>
+Other Benefits
+
+[Use this section to describe less tangible benefits such as increased morale or improved customer satisfaction.]
+
+Pricing
+The following table details the pricing for delivery of the services outlined in this proposal. This pricing is valid for <## days> from the date of this proposal:
+Services Cost <Category #1>
+Price
+<Item Description>
+<$0,000.00>
+
+
+
+
+
+
+
+
+Total Services <Category #1> Costs
+<$0,000.00>
+Services Cost <Category #2>
+
+
+Facilities
+
+
+License Fees
+
+
+Equipment Rental
+
+
+Training
+
+
+Travel
+
+
+Marketing
+
+
+Shipping/Handling
+
+
+Total Services <Category #2> Costs
+
+
+Services Cost <Category #3>
+
+
+
+
+
+
+Total Services <Category #3> Costs
+
+
+Total
+
+
+<Sample> Disclaimer: The prices listed in the preceding table are an estimate for the services discussed. This summary is not a warranty of final price. Estimates are subject to change if project specifications are changed or costs for outsourced services change before a contract is executed.
+Qualifications
+TECHSMART INTERNATIONAL is continually proven to be an industry leader for <high quality/guaranteed> <product/service> in the following ways:
+
+[Describe what sets your company apart from your competition (your unique selling proposition).]
+
+<Unique point #1>
+<Unique point #2>
+<Unique point #3>
+
+[Describe the strengths of your company, focusing on specializations that are most relevant for this project. As appropriate, include additional strengths of your unique selling proposition that provide benefits the customer may not have articulated.
+Identify qualifications that support your ability to address specific client needs for the project.
+Provide information that shows how you can meet the required schedule, such as staffing/subcontractors and percentage of time devoted to the project.]
+
+Conclusion
+
+[Close out the proposal with a statement that demonstrates your concern for the client and their needs, your expertise, and your willingness to help them solve the issues in question. Include any expected next steps and note the ways they can get in touch with you.]
+
+We look forward to working with <Client’s Company> and supporting your efforts to improve your sales cycle with <integrated CRM, JIT Inventory management, and training and support services>. We are confident that we can meet the challenges ahead, and stand ready to partner with you in delivering an effective IT support solution. 
+If you have questions on this proposal, feel free to contact <Name> at your convenience by email at <Email address> or by phone at <Telephone>. We will be in touch with you next week to arrange a follow-up conversation on the proposal.
+Thank you for your consideration,
+<Name>
+<Title>
