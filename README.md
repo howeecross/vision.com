@@ -200,7 +200,7 @@ The following table details the pricing for delivery of the services outlined in
 Services Cost <Category #1>
 Price
 <Item Description>
-<$0,000.00>
+<$7,000,000.00>
 
 
 
@@ -210,7 +210,7 @@ Price
 
 
 Total Services <Category #1> Costs
-<$0,000.00>
+<$1000,000.00>
 Services Cost <Category #2>
 
 
@@ -269,8 +269,8 @@ Conclusion
 
 [Close out the proposal with a statement that demonstrates your concern for the client and their needs, your expertise, and your willingness to help them solve the issues in question. Include any expected next steps and note the ways they can get in touch with you.]
 
-We look forward to working with <Client’s Company> and supporting your efforts to improve your sales cycle with <integrated CRM, JIT Inventory management, and training and support services>. We are confident that we can meet the challenges ahead, and stand ready to partner with you in delivering an effective IT support solution. 
-If you have questions on this proposal, feel free to contact <Name> at your convenience by email at <Email address> or by phone at <Telephone>. We will be in touch with you next week to arrange a follow-up conversation on the proposal.
+We look forward to working with <Local Government and Private Investors> and supporting your efforts to improve your sales cycle with <integrated CRM, JIT Inventory management, and training and support services>. We are confident that we can meet the challenges ahead, and stand ready to partner with you in delivering an effective IT support solution. 
+If you have questions on this proposal, feel free to contact <Name> at your convenience by email at <incfreshstartretailers@gmail.com> or by phone at <985647-2146>. We will be in touch with you next week to arrange a follow-up conversation on the proposal.
 Thank you for your consideration,
 <Name>
 <Title>
