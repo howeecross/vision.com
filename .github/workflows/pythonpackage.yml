@@ -49,3 +49,4 @@ jobs:
     settings-path: # optional
         pip install pytest
         pytest
+"publishConfig": { "registry": "https://npm.pkg.github.com/" }
