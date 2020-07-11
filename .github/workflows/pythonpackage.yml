@@ -49,3 +49,4 @@ jobs:
     settings-path: # optional
         pip install pytest
         pytest
+![.github/workflows/pythonpackage.yml](https://github.com/howeecross/vision.com/workflows/.github/workflows/pythonpackage.yml/badge.svg?branch=circleci-project-setup&event=create)
