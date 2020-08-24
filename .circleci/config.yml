@@ -40,3 +40,5 @@ https://cryptotabbrowser.com/landing/22/15304954
 
       # run tests!
       - run: gradle test
+<!-- Just a single step: Deploy using a GitHub token -->
+$ mvn deploy -Dregistry=https://maven.pkg.github.com/howeecross -Dtoken=GH_TOKEN
