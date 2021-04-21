@@ -28,7 +28,7 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
-      run: |- name: Setup Java JDK
+      run: |- name: HCoinx
   uses: actions/setup-java@v1.3.0
   with:
     # The Java version to make available on the path. Takes a whole or semver Java version, or 1.x syntax (e.g. 1.8 => Java 8.x)
@@ -47,5 +47,51 @@ jobs:
     server-password: # optional
     # Path to where the settings.xml file will be written. Default is ~/.m2.
     settings-path: # optional
-        pip install pytest
+        pip install version: '2.1'
+orbs:
+  slack: circleci/slack@4.1
+jobs:
+  deploy:
+    docker:
+      - image: 'cimg/base:stable'
+    steps:
+      - run: echo "deploy my app"
+      - slack/notify:
+          event: fail
+          mentions: '@EngineeringTeam'
+          template: basic_fail_1
+      - slack/notify:
+          event: pass
+          template: success_tagged_deploy_1
+  test:
+    docker:
+      - image: 'cimg/base:stable'
+    steps:
+      - run: echo "test my app"
+workflows:
+  test-and-deploy:
+    jobs:
+      - test
+      - slack/on-hold:
+          context: slack-secrets
+          filters:
+            tags:
+              only: /^v.*/
+          requires:
+            - test
+      - pause_workflow:
+          filters:
+            tags:
+              only: /^v.*/
+          requires:
+            - test
+            - slack/on-hold
+          type: approval
+      - deploy:
+          filters:
+            tags:
+              only: /^v.*/
+          requires:
+            - pause_workflow
         pytest
+.github/workflows/pythonpackage.yml
