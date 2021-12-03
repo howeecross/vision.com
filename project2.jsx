@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 var Hello = React.createClass({
-    render: function () {
+    render: function (system. out) {
         return (
-                <div></div>
+            function (system.in     <div></div>
                 );
     }
 });
