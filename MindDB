@@ -1,4 +1,53 @@
-TECHSMART INTERNATIONAL
+pragma solidity ^0.8.0;
+
+contract DataAnalyzer {
+    
+    struct Data {
+        uint256 id;
+        string name;
+        uint256 value;
+        bool isApproved;
+    }
+    
+    Data[] public data;
+    
+    uint256 public dataCount;
+    
+    address public owner;
+    
+    constructor() {
+        owner = msg.sender;
+    }
+    
+    function addData(string memory _name, uint256 _value) public {
+        require(msg.sender == owner, "Only owner can add data");
+        dataCount++;
+        Data memory newData = Data(dataCount, _name, _value, false);
+        data.push(newData);
+    }
+    
+    function approveData(uint256 _id) public {
+        require(msg.sender == owner, "Only owner can approve data");
+        for(uint256 i = 0; i < data.length; i++) {
+            if(data[i].id == _id) {
+                data[i].isApproved = true;
+                break;
+            }
+        }
+    }
+    
+    function calculateTotalValue() public view returns(uint256) {
+        uint256 totalValue = 0;
+        for(uint256 i = 0; i < data.length; i++) {
+            if(data[i].isApproved == true) {
+                totalValue += data[i].value;
+            }
+        }
+        return totalValue;
+    }
+} 
+
+INTERNATIONAL
 Proposal for Services
 For Independent Contractors
 
@@ -42,7 +91,7 @@ Show your understanding of the benefits the client can expect. For example, desc
 Describe how your capabilities and proposed solution align with the client’s goals for the project, including how your qualifications can uniquely address the current opportunity.]
 
 <Client’s Company> has a well-deserved reputation for quality customer service. However, faced with changes in distribution systems, economic impacts to transportation and logistics, and limitations that prevent taking full advantage of improvements in technology, <Client’s Company> faces the possibility of decreasing sales revenues due customer perceptions of slow delivery and services.
-We have developed solutions to help businesses stay ahead of customer satisfaction trends and propose that <Client’s Company> implement a logistics solution focused on JIT order management and automation of many manual steps in your delivery process. Our solution easily integrates with a wide range of off-the-shelf CRM solutions and can enable <Client’s Company> to fully realize the benefits of improved productivity throughout the entire sales cycle. Most importantly, we provide the training and support for this new solution that ensures your staff can ramp up quickly and realize concrete improvements in sales closure, customer satisfaction, and sales metrics.
+We have developed solutions to help businesses stay ahead of customer satisfaction trends and propose that <Client’s Company> implement a logistics solution focused on JIT order management and automation of many manual steps in your delivery process. Our solution easily integrates with a wide range of off-the-shelf CRM solutions and can enable <Client’s Company> to fully realize the benefits of improved productivity throughout the entire sales cycle. Most importantly, we provide the training and support for this new solution that ensures your staff can ramp up quickly and realize concrete improvements in sales closure, customer satisfaction, and sales metrics
 Rationale
 
 [Describe your reasons for developing the project as you have proposed it. You may need to justify why you have chosen your unique approach. Consider including the following points in your rationale.]
@@ -62,7 +111,7 @@ Technical/Project Approach
 
 Resources
 
-[Describe the resources you have in place or plan to acquire, such as qualified contractors, facilities, and technology.]
+[Describe the resources you have in place or plan to acquire, such as qualified contractors, facilities, and technology.
 
 Project Deliverables
 Following is a complete list of all project deliverables:
